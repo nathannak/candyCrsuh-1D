@@ -54,7 +54,9 @@ public class Main {
                 ret = i + counter + 2;
                 begin = i;
                 counter++;
-                i++;
+
+                //don't increment i here
+                //i++;
             }
 
             i++;
